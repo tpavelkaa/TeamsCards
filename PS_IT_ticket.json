@@ -9,7 +9,7 @@
     "type": "AdaptiveCard",
     "version": "1.4",
     "body": [
-        @{
+        {
             "type": "TextBlock",
             "text":  "$nadpis",
             "wrap": true,
