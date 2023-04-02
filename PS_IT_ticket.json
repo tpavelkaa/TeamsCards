@@ -11,7 +11,7 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": `"$nadpis`",
+            "text":  "${nadpis}",
             "wrap": true,
             "horizontalAlignment": "Left",
             "fontType": "Default",
@@ -41,7 +41,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "$timeStamp",
+                            "text": "${timeStamp}",
                             "wrap": true,
                             "weight": "Bolder",
                             "color": "Attention"
@@ -209,7 +209,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "$notificationType:",
+                            "text": "${notificationType}:",
                             "wrap": true,
                             "size": "Medium"
                         }
@@ -282,7 +282,7 @@
                 },
                 {
                     "type": "TextBlock",
-                    "text": "$notificationMessage",
+                    "text": "${notificationMessage}",
                     "wrap": true,
                     "horizontalAlignment": "Left",
                     "id": "text",
