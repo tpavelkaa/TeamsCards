@@ -1,0 +1,298 @@
+{
+    "type": "message",
+    "attachments": [
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "contentUrl": null,
+            "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "$nadpis",
+            "wrap": true,
+            "horizontalAlignment": "Left",
+            "fontType": "Default",
+            "size": "Large",
+            "weight": "Bolder",
+            "color": "Accent",
+            "isSubtle": false
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Datum a čas",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "$timeStamp",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "color": "Attention"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "accent",
+            "bleed": true,
+            "spacing": "None",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Zákazník:",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "$customer",
+                            "wrap": true,
+                            "id": "customer",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "color": "Good"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "DocuWare URL:",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "color": "Dark"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Workflow:",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Kontrola duplicit",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Left",
+                            "wrap": true,
+                            "spacing": "None"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Aktivita:",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Přiřazení proměnné",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "$notificationType:",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "CHYBA",
+                            "wrap": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "color": "Warning"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "spacing": "None"
+        },
+        {
+            "type": "Container",
+            "separator": true,
+            "style": "default",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "120px",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "ZPRÁVA:",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "isSubtle": true,
+                                    "horizontalAlignment": "Left",
+                                    "spacing": "None"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Přejít na dokument",
+                                            "url": "https://printpartners.cz",
+                                            "style": "positive"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "$notificationMessage",
+                    "wrap": true,
+                    "horizontalAlignment": "Left",
+                    "id": "text",
+                    "separator": true
+                }
+            ],
+            "spacing": "None"
+        }
+    ]
+}
+        }
+    ]
+}
