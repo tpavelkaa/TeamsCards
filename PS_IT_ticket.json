@@ -9,9 +9,9 @@
     "type": "AdaptiveCard",
     "version": "1.4",
     "body": [
-        {
+        @{
             "type": "TextBlock",
-            "text":  "${nadpis}",
+            "text":  "$nadpis",
             "wrap": true,
             "horizontalAlignment": "Left",
             "fontType": "Default",
